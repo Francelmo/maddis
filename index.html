@@ -1,14 +1,70 @@
 <!doctype HTML>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8">
     <title>Rede Maddis</title>
     <link rel="stylesheet" type="text/css"  href="estilo.css" />
-</head>
-<body>
-  <div class="search-box">
-    <imput class="search-txt" type="text" name="box">
-    <a class="search-btn" href=""></a>
-  </div>
-</body>
+  </head>
+  <body>
+    <header>
+      <div id="inicio">
+        <a href="index.html"></a>
+      </div>
+      <div id="login">
+        <!--- Opções Login --->
+        <a href="#login"></a>
+      </div>
+      <div id="publicacoes">
+        <a href="#publicacoes"></a>
+      </div>
+      <div id="planos">
+        <!--- Opções Plano --->
+        <a href="#planos"></a>
+      </div>
+      <div id="sobre">
+        <a href="#sobre"></a>
+      </div>
+    </header>
+    <div class="search-box">
+      <imput class="search-txt" type="text" name="box">
+      <a class="search-btn" href=""></a>
+    </div>
+    <section id="login">
+      <form class="registro" method="post" action="">
+        <input id="cad_nome" name="cad_nome" required="required" type="text"/>
+        <input id="cad_email" name="cad_email" required="required" type="email"/> 
+        <input id="cad_senha" name="cad_senha" required="required" type="password"/>
+        <input type="submit" value=""/> 
+      </form>
+      <form class="entrar" method="post" action="">
+        <input id="email" name="email" required="required" type="text"/>
+        <input id="senha" name="senha" required="required" type="password"/>
+        <input type="submit" value=""<a href"#logado"></a>/>
+      </form>
+    </section>
+    <section id="logado">
+      <a href""></a>
+    </section>
+    <section id="publicacoes">
+      <a href""></a>
+    </section>
+    <section id="planos">
+      <a href""></a>
+    </section>
+    <section id="sobre">
+      <a href""></a>
+    </section>
+    <section id="add_plano">
+      <form class="criar_plano" method="post" action="">
+        <textarea id="objetivo" name="objetivo" rows="10" cols="15"></textarea>
+        <!--- Colocar aqui: Habilidade da BNCC --->
+        <textarea id="conteudo" name="conteudo" rows="10" cols="15"></textarea>
+        <!--- Colocar aqui: Objetivo do conhecimento --->
+        <textarea id="metodologia" name="metodologia" rows="10" cols="15"></textarea>
+        <!--- Colocar aqui: Hyperlink --->
+        <textarea id="avaliacao" name="avalicao" rows="10" cols="15"></textarea>
+        <!--- Colocar aqui: PIN --->
+      </form>
+    </section>
+  </body>
 </html>
